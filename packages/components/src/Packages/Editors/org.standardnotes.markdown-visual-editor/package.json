@@ -23,7 +23,7 @@
   "devDependencies": {
     "@codemirror/lang-markdown": "^0.19.6",
     "@milkdown/core": "5.5.0",
-    "@milkdown/plugin-clipboard": "5.5.0",
+    "@milkdown/plugin-clipboard": "6.5.4",
     "@milkdown/plugin-cursor": "5.5.0",
     "@milkdown/plugin-diagram": "5.5.0",
     "@milkdown/plugin-history": "5.5.0",

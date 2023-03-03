@@ -4511,16 +4511,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@milkdown/plugin-clipboard@npm:5.5.0":
-  version: 5.5.0
-  resolution: "@milkdown/plugin-clipboard@npm:5.5.0"
+"@milkdown/exception@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@milkdown/exception@npm:7.0.1"
   dependencies:
-    "@milkdown/utils": 5.5.0
-    tslib: ^2.3.1
+    tslib: ^2.4.0
+  checksum: 2f27a88942a3a1a510287e4a1ba97e84fab75be8d6f66690ce763ddb3150bd6bac053f0a8038af02b3ecb32559428df0dceb35da1c0316282b9c4b50f31b5198
+  languageName: node
+  linkType: hard
+
+"@milkdown/plugin-clipboard@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@milkdown/plugin-clipboard@npm:7.0.1"
+  dependencies:
+    "@milkdown/utils": 7.0.1
+    tslib: ^2.4.0
   peerDependencies:
-    "@milkdown/core": ^5.4.0
-    "@milkdown/prose": ^5.4.0
-  checksum: 8c9a9e2cc865eedab45dde062570eb7249891bc4d157211d4b441b2a8ddb54d2884ec4f4cf3a052f34eeb54f1696bde855b18a6b43423d53bd1ded76f4eb15bf
+    "@milkdown/core": ^7.0.0-next.0
+    "@milkdown/prose": ^7.0.0-next.0
+  checksum: 18b0b4efc526f27562c2b9804735b5f915462459562d3b11d72a54e0d22ec1d6eeb5b7d0a5f4affa2fc494cb98a5ac9dbedceaf54cfc7d0bdef4d1bc89b6b0e7
   languageName: node
   linkType: hard
 
@@ -4776,6 +4785,22 @@ __metadata:
     "@milkdown/core": ^5.4.0
     "@milkdown/prose": ^5.4.0
   checksum: 90f2452b6a3821c5f647bbe7048f760e4ffdee424009023dffab7d35743b24ae285d1a98738da26c33360873e3ba68c95d7d72d51650e43e2965c73ff2998731
+  languageName: node
+  linkType: hard
+
+"@milkdown/utils@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@milkdown/utils@npm:7.0.1"
+  dependencies:
+    "@milkdown/exception": 7.0.1
+    nanoid: ^4.0.0
+    tslib: ^2.4.0
+  peerDependencies:
+    "@milkdown/core": ^7.0.0-next.0
+    "@milkdown/ctx": ^7.0.0-next.0
+    "@milkdown/prose": ^7.0.0-next.0
+    "@milkdown/transformer": ^7.0.0-next.0
+  checksum: 5238d76ac660b9f1c95fc6d0b14ba37fabd9b351059c1e3d4e1d3fb174d1e04fe0a4474bdb74b0619452057dee0b98551255230f58a787309f1a011218a55118
   languageName: node
   linkType: hard
 
@@ -6886,7 +6911,7 @@ __metadata:
   dependencies:
     "@codemirror/lang-markdown": ^0.19.6
     "@milkdown/core": 5.5.0
-    "@milkdown/plugin-clipboard": 5.5.0
+    "@milkdown/plugin-clipboard": 7.0.1
     "@milkdown/plugin-cursor": 5.5.0
     "@milkdown/plugin-diagram": 5.5.0
     "@milkdown/plugin-history": 5.5.0
@@ -27435,6 +27460,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 2fddd6dee994b7676f008d3ffa4ab16035a754f4bb586c61df5a22cf8c8c94017aadd360368f47d653829e0569a92b129979152ff97af23a558331e47e37cd9c
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "nanoid@npm:4.0.1"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: 21022a7910aa690cb05872c07f0c4a317dfe2aa79cc2b5e4ab41d17476e23d973d24c683206d6fa7e1b56bf657cf5dfbc0f1cac7d596bcd2dea0f49635316628
   languageName: node
   linkType: hard
 
